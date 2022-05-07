@@ -1,23 +1,86 @@
+Payload to Target All Members under a course and program plan
+
 [
-
-{
+    {
         "keys": {
-            "UniqueId": "{{$guid}}"
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
         },
-        "values": {
-             "target": "All",
-             "courseOfferingName": "Business Economics",
-             "quizTitle": "Business Economics Discussion",
-             "quizLink": "www.google.com",
-             "courseOfferingId": "a0B9D000006MGXYUA4",
-             "termId":"a0P9D000001ShN5UAK",
-             "quizId":"q86",
-             "programPlanId":"a0K9D000006JZ87UAG",
-             "startDate": "04-18-2022",
-             "endDate": "04-21-2022",
-             "action": "Published",
-             "attempted":"False"
+        "values": 
+        {
+         "Target": "All",
+         "QuizTitle": "ML Discussion",
+         "QuizLink": "www.mldf.com",
+         "CourseOfferingId": "SF 18 digit Id",
+         "QuizId":"HI78",
+         "CreatedDate":"04-10-2022" //Quiz Created date in LMS
+         "StartDate": "04-12-2022",
+         "EndDate": "04-14-2022",
+         "Action": "Published",
+         "Choice":"Mandatory",
+         "Type":"Gradable"
+          
+         }
 
-        }
-}
+    }
+]
+
+
+__________________________________________________________________________________________
+
+Payload to Target specific set of students
+
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "ContactId": "SF 18 Digit Id",
+         
+         "QuizTitle": "ML Discussion",
+         "QuizLink": "www.mldf.com",
+         "CourseOfferingId": "SF 18 digit Id",
+         "QuizId":"HI78",
+         "CreatedDate":"04-10-2022" //Quiz Created date in LMS
+         "StartDate": "04-12-2022",
+         "EndDate": "04-14-2022",
+         "Action": "Published",
+         "Choice":"Mandatory",
+         "Type":"Gradable"
+          
+         }
+
+    }
+]
+
+
+_____________________________________________________________________________________________________
+
+
+Payload to Target specific group of students based on groupid
+
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "groupId": "SF 18 Digit Id",
+         
+         "QuizTitle": "ML Discussion",
+         "QuizLink": "www.mldf.com",
+         "CourseOfferingId": "SF 18 digit Id",
+         "QuizId":"HI78",
+         "CreatedDate":"04-10-2022" //Quiz Created date in LMS
+         "StartDate": "04-12-2022",
+         "EndDate": "04-14-2022",
+         "Action": "Published",
+         "Choice":"Mandatory",
+         "Type":"Gradable"
+          
+         }
+
+    }
 ]

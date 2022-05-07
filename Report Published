@@ -1,3 +1,5 @@
+Report Published for all the students
+
 [
 
 {
@@ -6,13 +8,56 @@
         },
         "values": {
              "target": "All",
-             "courseOfferingName": "Business Economics",
              "quizTitle": "Business Economics Discussion",
-             "quizLink": "www.google.com",
+             "ReportLink": "www.google.com",
              "courseOfferingId": "a0B9D000006MGXYUA4",
-             "termId":"a0P9D000001ShN5UAK",
              "quizId":"q86",
-             "programPlanId":"a0K9D000006JZ87UAG",
+             "startDate": "04-18-2022",
+             "endDate": "04-21-2022",
+             "action": "Report Published",
+            
+
+        }
+}
+]
+
+Report Published for specific students
+
+[
+
+{
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+             "ContactId": "SF 18 Digit Id",
+             "quizTitle": "Business Economics Discussion",
+             "ReportLink": "www.google.com",
+             "courseOfferingId": "a0B9D000006MGXYUA4",
+             "quizId":"q86",
+             "startDate": "04-18-2022",
+             "endDate": "04-21-2022",
+             "action": "Report Published",
+            
+
+        }
+}
+]
+
+Report Published for Group Of Students 
+
+[
+
+{
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+             "GroupId": "SF 18 Digit Id",
+             "quizTitle": "Business Economics Discussion",
+             "ReportLink": "www.google.com",
+             "courseOfferingId": "a0B9D000006MGXYUA4",
+             "quizId":"q86",
              "startDate": "04-18-2022",
              "endDate": "04-21-2022",
              "action": "Report Published",

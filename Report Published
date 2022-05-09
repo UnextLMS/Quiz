@@ -12,9 +12,7 @@ Report Published for all the students
              "ReportLink": "www.google.com",
              "courseOfferingId": "a0B9D000006MGXYUA4",
              "quizId":"q86",
-             "startDate": "04-18-2022",
-             "endDate": "04-21-2022",
-             "action": "Report Published",
+             "Action": "Report Published"
             
 
         }
@@ -35,9 +33,7 @@ Report Published for specific students
              "ReportLink": "www.google.com",
              "courseOfferingId": "a0B9D000006MGXYUA4",
              "quizId":"q86",
-             "startDate": "04-18-2022",
-             "endDate": "04-21-2022",
-             "action": "Report Published",
+             "Action": "Report Published"
             
 
         }
@@ -58,9 +54,7 @@ Report Published for Group Of Students
              "ReportLink": "www.google.com",
              "courseOfferingId": "a0B9D000006MGXYUA4",
              "quizId":"q86",
-             "startDate": "04-18-2022",
-             "endDate": "04-21-2022",
-             "action": "Report Published",
+             "Action": "Report Published"
             
 
         }

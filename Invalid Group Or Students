@@ -1,3 +1,5 @@
+Invalid Individual Students
+
 [
     {
         "keys": {
@@ -5,16 +7,46 @@
         },
         "values": 
         {
-         "ContactId/GroupId": "SF 18 Digit Id",
+         "ContactId": "SF 18 Digit Id", //Mandatory
          
          "QuizTitle": "ML Discussion",
          "QuizLink": "www.mldf.com",
          "CourseOfferingId": "SF 18 digit Id",
-         "QuizId":"HI78",
+         "QuizId":"HI78",  //Mandatory
          "CreatedDate":"04-10-2022" //Quiz Created date in LMS
          "StartDate": "04-12-2022",
          "EndDate": "04-14-2022",
-         "Action": "Invalid",
+         "Action": "Invalid",  //Mandatory
+         "Choice":"Mandatory",
+         "Type":"Gradable"
+          
+         }
+
+    }
+]
+
+_______________________________________________________________________________
+
+
+Invalid Group of students
+
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "GroupId": "SF 18 Digit Id", //Mandatory
+         
+         "QuizTitle": "ML Discussion",
+         "QuizLink": "www.mldf.com",
+         "CourseOfferingId": "SF 18 digit Id",
+         "QuizId":"HI78", //Mandatory
+         "CreatedDate":"04-10-2022" //Quiz Created date in LMS
+         "StartDate": "04-12-2022",
+         "EndDate": "04-14-2022",
+         "Action": "Invalid", //Mandatory
          "Choice":"Mandatory",
          "Type":"Gradable"
           

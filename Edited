@@ -8,10 +8,10 @@
              "quizTitle": "Business Economics Discussion",
              "quizLink": "www.google.com",
              "courseOfferingId": "a0B9D000006MGXYUA4",
-             "quizId":"q86",
+             "quizId":"q86", //Mandatory
              "startDate": "04-18-2022",
              "endDate": "04-21-2022",  //Update Enddate as of phase1 if there is any change in enddate
-             "action": "Edited",
+             "Action": "Edited",
              
 
         }

@@ -1,0 +1,23 @@
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+        
+         "QuizTitle": "ML Discussion",
+         "QuizLink": "www.mldf.com",
+         "CourseOfferingId": "SF 18 digit Id",
+         "QuizId":"HI78",
+         "CreatedDate":"04-10-2022" //Quiz Created date in LMS
+         "StartDate": "04-12-2022 5:00:00 pm",
+         "EndDate": "04-14-2022 10:00:00 pm",
+         "Action": "UnPublished",
+         "Choice":"Mandatory",
+         "Type":"Gradable"
+          
+         }
+
+    }
+]

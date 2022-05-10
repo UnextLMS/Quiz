@@ -1,3 +1,5 @@
+Target All Students under a course
+
 [
 
 {
@@ -5,13 +7,64 @@
             "UniqueId": "{{$guid}}"
         },
         "values": {
+             "Target":"All",
              "quizTitle": "Business Economics Discussion",
              "quizLink": "www.google.com",
              "courseOfferingId": "a0B9D000006MGXYUA4",
              "quizId":"q86", //Mandatory
              "startDate": "04-18-2022",
              "endDate": "04-21-2022",  //Update Enddate as of phase1 if there is any change in enddate
-             "Action": "Edited",
+             "Action": "Edited"
+             
+
+        }
+}
+]
+
+
+
+Target specific Students under a course
+
+[
+
+{
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+             "ContactId":"0039D00000GJGF9QAP",
+             "quizTitle": "Business Economics Discussion",
+             "quizLink": "www.google.com",
+             "courseOfferingId": "a0B9D000006MGXYUA4",
+             "quizId":"q86", //Mandatory
+             "startDate": "04-18-2022",
+             "endDate": "04-21-2022",  //Update Enddate as of phase1 if there is any change in enddate
+             "Action": "Edited"
+             
+
+        }
+}
+]
+
+
+Target specific group of students under a course
+
+
+[
+
+{
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+             "GroupId":"0039D00000GJGF9QAP",
+             "quizTitle": "Business Economics Discussion",
+             "quizLink": "www.google.com",
+             "courseOfferingId": "a0B9D000006MGXYUA4",
+             "quizId":"q86", //Mandatory
+             "startDate": "04-18-2022",
+             "endDate": "04-21-2022",  //Update Enddate as of phase1 if there is any change in enddate
+             "Action": "Edited"
              
 
         }

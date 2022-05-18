@@ -6,12 +6,12 @@
         "values": 
         {
          "UserId":"a0j9D0000043ey7QAA",
-         "QuizTitle": "ML Discussion",
-         
+         "EntityTitle": "ML Discussion",
+         "EntityType":"Quiz",
          "CourseOfferingId": "a0B9D000008fFaMUAU",
-         "QuizId":"HI78",
-         "RequesterName":"Swapnil",
-         "Link":"www.quizrequest.com",
+         "EntityId":"HI78",
+         "LearnerName":"Swapnil",
+         "EntityLink":"www.quizrequest.com",
          "Action": "Challenge Question Request",
          
           
